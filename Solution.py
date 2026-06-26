@@ -1,4 +1,4 @@
-# input the prompt in gemini openend and input the prompt in the gemini chat and then click the submit button and then get the response from the gemini chat and wait for the submit button to appear and give the second prompt and so on till the loop condition gets invalidated
+# input the prompt in deepseek openend and input the prompt in the deepseek chat and then click the submit button and then get the response from the deepseek chat and wait for the submit button to appear and give the second prompt and so on till the loop condition gets invalidated
 
 import time
 from selenium import webdriver
@@ -85,10 +85,5 @@ if __name__ == "__main__":
         prompt = f"Please provide the most time- and space-optimized Python 3 solution for LeetCode Problem {problem_number}. Include a detailed explanation of the logic, dry-run, a step-by-step time & space complexity analysis (using Big-O notation), and ensure it handles all edge cases."
         my_prompts.append(prompt)
     
-    # all_responses = 
     automate_prompts(my_prompts)
-    # if all_responses:
-    #     print("\n--- All Prompts Processed ---")
-    #     print(f"Collected {len(all_responses)} responses.")
-        # You can now process 'all_responses', e.g., save to a file
     
